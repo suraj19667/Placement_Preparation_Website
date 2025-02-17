@@ -6,13 +6,15 @@
 }
 #header{
     display: flex;
-    /* background-color: rgb(99, 139, 199); */
     justify-content: space-around;
     align-items: center;
     height: 8   0px;
     width: 100%;
     border: 1px solid red;
     box-shadow: inset 2px 2px 3px 5px red;
+    position: fixed;
+    top: 1px;
+    
 }
 #header img{
 
