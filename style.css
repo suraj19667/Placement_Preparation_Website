@@ -5,20 +5,19 @@
 
 }
 #header{
+    background-color: wheat;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 8   0px;
     width: 100%;
-    border: 1px solid red;
-    box-shadow: inset 2px 2px 3px 5px red;
+    box-shadow: inset 2px 2px 3px 5px rgb(220, 123, 123);
     position: fixed;
     top: 1px;
    
     
 }
 #header img{
-   
     display: flex;
     align-items: center;
     height: 70px;
@@ -86,7 +85,7 @@ div{
 #home img{
 
     display: flex;
-    height: 850px;
+    height: 800px;
     width: 500px;
     margin-left: 50px;
     padding-top: 30px;
@@ -120,9 +119,9 @@ div{
   
  }
     
-    .search-button {
-        background-color: #e72929;
-        color: rgb(23, 184, 237);
+.search-button {
+        background-color: #f41a1a;
+        color: rgb(244, 28, 28);
         border: none;
         padding: 9px 9px;
         cursor: pointer;
@@ -130,16 +129,15 @@ div{
         transition: background-color 0.3s;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
     }
 
 
-    .search-button{
+.search-button{
         border-radius: 30%;
 
     }
-    .search-button:hover {
-       background-color: #ea5c5c;
+.search-button:hover {
+       background-color: #070606;
     }
 .container {
     max-width: 600px; 
@@ -173,7 +171,7 @@ div{
     
 }
     
-    h1 {
+h1 {
         font-size: 38px;
         font-weight: bold;
         margin-bottom: 20px;
@@ -182,20 +180,20 @@ div{
         justify-content: center;
     }
     
-    .highlight {
+.highlight {
     
        background-color: #b2ff59; /* Highlight color */
     }
     
-    .cards {
+.cards {
         display: flex;
         justify-content: space-around;
         gap: 40px;
         align-items: center;
+        flex-wrap: wrap;
     }
     
-    .card {
-
+.card {
         background-color: #040404;
         color: #fff;
         padding: 20px;
@@ -207,7 +205,7 @@ div{
        
     }
     
-    .card:hover {
+.card:hover {
         transform: translateY(-6px);
         color: #b2ff59;
         scale: 1.1;
@@ -215,7 +213,7 @@ div{
        
     }
     
-    .icon {
+.icon {
         font-size: 45px;
         margin-bottom: 10px;
 }
