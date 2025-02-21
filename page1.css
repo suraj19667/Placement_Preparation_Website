@@ -9,8 +9,9 @@ body {
 /* Breadcrumb navigation */
 .breadcrumb {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 20px;
     background: #fff;
+    
 }
 
 .breadcrumb a {
@@ -70,3 +71,4 @@ body {
     color: #ffcc00;
     text-decoration: underline;
 }
+
