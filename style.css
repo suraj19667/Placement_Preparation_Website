@@ -271,3 +271,12 @@ h1 {
     color: black;
     
 }
+
+@media(max-width:430px){
+
+
+    #header ul li a{
+        color: red;
+    }
+
+}
