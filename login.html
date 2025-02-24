@@ -8,18 +8,24 @@
 </head>
 <body>
 
-<div class="login-container">
-    <h2>Login</h2>
-    <form action="/submit-login" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <input type="submit" value="Login">
-    </form>
-</div>
+    <div class="container">
+        <div class="signup-box">
+            <h2>Login</h2>
+            <form>
+                
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+    
+                <button type="submit" class="btn">Login</button>
+                <p class="login-link">Invalid User ! <a href="signup.html">Sign Up</a></p>
+            </form>
+        </div>
 
 </body>
 </html>
