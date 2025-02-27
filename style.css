@@ -327,3 +327,22 @@ h1 {
   
 }
 
+.login:hover{
+    background-color: rgb(234, 109, 109);
+    transform: scale(1.2);
+    transform: rotate(30deg);
+    transform: skew(50deg);    
+}
+.signup:hover{
+    background-color: rgb(234, 109, 109);
+    transform: scale(1.2);
+    transform: rotate(30deg);
+    transform: skew(50deg);    
+}
+#header ul li a:hover{
+    background-color: rgb(90, 205, 243);
+    transform: scale(1.2);
+    transform: rotate(30deg);
+    transform: skew(50deg);
+    border-radius: 15%;    
+}

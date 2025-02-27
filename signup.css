@@ -33,6 +33,11 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+.signup-box:hover{
+    background-color: white;
+    transform: scale(1.2);
+    
+}
 
 .signup-box h2 {
     color: rgb(9, 8, 8);
