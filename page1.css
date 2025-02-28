@@ -3,13 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+
+    
 }
 
 .breadcrumb {
     padding: 10px 20px;
     font-size: 20px;
-    background: #03b8d8;
-    
+    background: #03b8d8;    
 }
 
 .breadcrumb a {
@@ -28,6 +29,7 @@ body {
     justify-content: space-between;
     padding: 40px;
     background: rgb(79, 229, 234);
+    background: url(./images/background.jpg) ;
 }
 
 .content {
@@ -95,3 +97,5 @@ h1 {
 .topic:hover {
     background-color: lightgray;
 }
+
+

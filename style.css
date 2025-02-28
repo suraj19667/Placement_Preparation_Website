@@ -13,8 +13,10 @@
     width: 100%;
     box-shadow: inset 2px 2px 3px 5px rgb(220, 123, 123);
     top: 1px;
+
     
 }
+
 #header img{
     display: flex;
     align-items: center;
@@ -77,8 +79,8 @@ div{
     align-items: center;
     flex-wrap: wrap;
     background-image: url(./images/background.jpg);
-}
 
+}
 
 #home img{
 
@@ -148,11 +150,28 @@ div{
     height: 490px;
     display: flex;
     align-items: center;
+    transition: transform 0.3s;
+    animation: move 6s infinite;
+    }
+    @keyframes move{
+        0%{
+            border: 3px solid red;
+        }
+        50%{
+            border: 3px solid green;
+        }
+        75%{
+            border: 3px solid pink;
+        }
+        100%{
+            border: 3px solid blue;
+        }
     }
 .container:hover{
     color: rgb(242, 77, 143);
+ 
  }
-    
+   
 .main-title {
      font-size: 2.5em;
      font-weight: bold; 
@@ -168,7 +187,7 @@ div{
         margin-top: 50px;
     
 }
-    
+ 
 h1 {
         font-size: 38px;
         font-weight: bold;
@@ -329,20 +348,16 @@ h1 {
 
 .login:hover{
     background-color: rgb(234, 109, 109);
-    transform: scale(1.2);
-    transform: rotate(30deg);
-    transform: skew(50deg);    
+    transform: scale(1.2);    
 }
 .signup:hover{
     background-color: rgb(234, 109, 109);
     transform: scale(1.2);
-    transform: rotate(30deg);
-    transform: skew(50deg);    
+  
 }
 #header ul li a:hover{
     background-color: rgb(90, 205, 243);
     transform: scale(1.2);
-    transform: rotate(30deg);
-    transform: skew(50deg);
+
     border-radius: 15%;    
 }

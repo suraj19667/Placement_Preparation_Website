@@ -102,3 +102,8 @@ body {
 .login-link a:hover {
     text-decoration: underline;
 }
+.signup-box:hover{
+    background-color: white;
+    transform: scale(1.2);
+    
+}
