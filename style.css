@@ -30,7 +30,6 @@
     justify-content:space-around;
     justify-items: center;
  
-
 }
 
 #header ul li{
@@ -360,4 +359,23 @@ h1 {
     transform: scale(1.2);
 
     border-radius: 15%;    
+}
+
+#learn {
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 30px;
+    background-color: black;
+}
+#learn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
 }
