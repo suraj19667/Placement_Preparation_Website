@@ -369,6 +369,7 @@ h1 {
     width: 100%;
     font-size: 30px;
     background-color: black;
+    display: table-column;
 }
 #learn a{
     color: white;
