@@ -361,15 +361,25 @@ h1 {
     border-radius: 15%;    
 }
 
-#learn {
+#learn{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#learn .cont1{
     height: 300px;
     color: white;
     display: flex;
     flex-direction: column;
-    width: 100%;
     font-size: 30px;
-    background-color: black;
-    display: table-column;
+}
+#learn .cont2{
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
 }
 #learn a{
     color: white;
