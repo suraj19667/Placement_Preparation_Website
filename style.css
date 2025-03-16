@@ -383,6 +383,13 @@ h1 {
     flex-direction: column;
     font-size: 30px;
 }
+#learn .cont3{
+    height: 300px;
+    color: white;
+    display: flex;
+    flex: column;
+    font-size: 30px;
+}
 #learn a{
     color: white;
     font-size: 18px;
