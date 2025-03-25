@@ -150,10 +150,10 @@ div{
     height: 490px;
     display: flex;
     align-items: center;
-    transition: transform 0.3s;
-    animation: move 6s infinite;
+    /* transition: transform 0.3s;
+    animation: move 6s infinite; */
     }
-    @keyframes move{
+    /* @keyframes move{
         0%{
             border: 3px solid red;
         }
@@ -166,7 +166,7 @@ div{
         100%{
             border: 3px solid blue;
         }
-    }
+    } */
 .container:hover{
     color: rgb(242, 77, 143);
  
