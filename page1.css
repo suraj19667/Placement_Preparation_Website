@@ -34,6 +34,7 @@ body {
 
 .content {
     width: 60%;
+    flex-wrap: wrap;
     
 }
 
@@ -50,6 +51,7 @@ body {
 }
 .image {
     width: 35%;
+    flex-wrap: wrap;
 }
 
 .image img {
