@@ -105,10 +105,11 @@ h1 {
     background-color: lightgray;
 }
 
-.java-content {
+.java-content {   
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+
 
 }
 
