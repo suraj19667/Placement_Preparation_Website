@@ -217,10 +217,14 @@ h1 {
         border-radius: 10px;
         width: 320px;
         transition: transform 0.3s;
-
-
-       
     }
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card a:hover{
+    color: #b2ff59;
+}
     
 .card:hover {
         transform: translateY(-6px);
